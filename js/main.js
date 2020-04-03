@@ -208,34 +208,6 @@ $(document).ready(function() {
   });
   //  end slide-image
 
-  //  start slide-product
-  $(".slide-product").owlCarousel({
-    rtl: true,
-    mouseDrag: true,
-    loop: true,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 6000,
-    animateOut: "fadeOut",
-    animateIn: "pulse",
-    dotsEach: true,
-    center: true,
-    autoWidth: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
-      }
-    }
-  });
-  //  end slide-product
-
   //  start show and hide password
 
   var showpass1 = $(".showpass1"),
