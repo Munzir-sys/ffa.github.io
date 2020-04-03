@@ -165,7 +165,8 @@ header {
   background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
   background-repeat: repeat-x;
   box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 header .nav-header {
   display: -webkit-box;
@@ -314,12 +315,14 @@ header .search {
 header .logo {
   margin-left: 40px;
 }
+.intro .log img {
+  height: 60px;
+}
 /*  end header */
 
 /*  start slide image */
 .slider {
   min-height: 200px;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-caption {
@@ -416,7 +419,7 @@ header .logo {
 .modren-product {
   padding: 30px;
   margin-top: 100px;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1); */
 }
 .modren-product h5 {
   /* margin-bottom: 30px; */
@@ -464,14 +467,26 @@ footer {
   color: #fff;
   background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
   background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
+  /* box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44); */
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 footer .copy-right {
   padding-bottom: 30px;
 }
 footer .title::before {
   top: 8px;
+  border-right: 10px solid #fff;
+}
+footer hr {
+  border-top: 1px solid #53c5a56b !important;
+}
+footer .logo {
+  height: 100px;
+  overflow: hidden;
+}
+footer .logo img {
+  height: 100%;
 }
 /*  end footer */
 
@@ -493,12 +508,6 @@ footer .title::before {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
 }
 .sign-in-up .tab-content {
   padding: 60px 60px 0 60px;
@@ -510,7 +519,7 @@ footer .title::before {
 }
 
 .sign-in-up .form .nav-tabs .nav-link {
-  color: #f9f9f9;
+  color: #9c9c9c;
   border: none;
   border-bottom: 3px solid transparent;
   font-family: "NeoSansArabic";
@@ -617,7 +626,7 @@ footer .title::before {
   background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
   background-repeat: repeat-x;
   box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .sign-in-up .form .link a {
@@ -725,15 +734,14 @@ footer .title::before {
   margin-top: 100px;
 }
 .contactus .info-contactus {
-  /* margin-top: 1px; */
+  margin-top: 10px;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   border: none;
-  border-radius: 0.5rem;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
-  padding-bottom: 97px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .contactus .info-contactus ul li {
   margin: 10px;
@@ -745,7 +753,16 @@ footer .title::before {
   color: #4caf50;
   margin-left: 10px;
 }
-
+.contactus .contact-from {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 form .form-con {
   display: block;
   width: 100%;
@@ -758,6 +775,8 @@ form .form-con {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   -webkit-transition: border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   -webkit-transition: border-color 0.15s ease-in-out,
@@ -787,7 +806,8 @@ form .btn-send {
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 form .btn-send:hover {
   background: #efcb57;
@@ -818,7 +838,8 @@ form .form-group .form-con input:focus {
   border: none;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .our-product .card span {
   margin-bottom: 4px;
@@ -826,13 +847,15 @@ form .form-group .form-con input:focus {
   font-size: 12px;
 }
 .our-product .card .card-img-top {
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .our-product .card .card-img-top:hover {
+  -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
 .our-product .card-body {
-  padding: 1.25rem 0;
+  padding: 1.25rem 0 0;
 }
 .our-product .card-body a {
   text-align: center;
@@ -875,29 +898,45 @@ form .form-group .form-con input:focus {
   transition: 0.5s ease-in-out;
 }
 
-.ease-order .order i {
-  padding: 8px;
-  margin: 10px;
-  font-size: 50px;
-  /* color: #4caf5073; */
+.ease-order .order .fa-award,
+.fa-thumbs-up,
+.fa-rocket {
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 40px;
+  border-radius: 50%;
   background: #0064fa;
   color: #fff;
   background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
   background-repeat: repeat-x;
   box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
+  width: 70px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  height: 70px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+
+.ease-order .order .fa-award:hover,
+.fa-thumbs-up:hover,
+.fa-rocket:hover {
+  -webkit-animation: rotate 3s linear infinite;
+  animation: rotate 3s linear infinite;
 }
 .ease-order .order .arrow-order {
   position: absolute;
   font-size: 26px;
   left: -35%;
   box-shadow: 0px 0px 70px #efefef82;
+  color: #1eae92;
 }
 .ease-order .order .arrow-order2 {
   display: none;
   position: absolute;
   font-size: 26px;
   box-shadow: 0px 0px 70px #efefef82;
+  color: #1eae92;
 }
 .ease-order .order h3 {
   font-size: 40px;
@@ -913,9 +952,9 @@ form .form-group .form-con input:focus {
   background-color: #fff;
   margin: 2.2rem;
   border: none;
-  border-radius: 2.5rem;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-top: 30px;
 }
 .detail-product .title {
@@ -924,10 +963,14 @@ form .form-group .form-con input:focus {
 .detail-product .info {
   padding: 20px;
 }
+.detail-product .info hr {
+  border-top: 1px solid rgba(30, 175, 144, 0.12);
+}
 .detail-product .info h5 {
   background: url(../image/phone-bg.png) no-repeat;
   background-size: 20%;
   background-position: right;
+  color: #1eaf91;
 }
 .detail-product .info .price-product span {
   color: #4caf50;
@@ -966,6 +1009,9 @@ form .form-group .form-con input:focus {
 }
 
 .detail-product .info .order-btn {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
 }
 .detail-product .info .order-btn .pay {
   border-radius: 5px;
@@ -988,7 +1034,7 @@ form .form-group .form-con input:focus {
   display: -webkit-inline-box;
   display: inline-flex;
   outline: none;
-  border: 1px solid #4caf4c;
+  border: none;
   color: #4caf4c;
   background-color: #fff;
   padding: 10px;
@@ -1039,7 +1085,7 @@ form .form-group .form-con input:focus {
 }
 .modal-body .delete i {
   text-align: center;
-  color: #ea083c !important;
+  color: #f35757 !important;
   display: -webkit-box;
   display: flex;
   font-size: 30px !important;
@@ -1061,6 +1107,10 @@ form .form-group .form-con input:focus {
   outline: none;
   padding: 10px;
   background: #4caf50;
+  background: #0064fa;
+  color: #fff;
+  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
+  background-repeat: repeat-x;
   border: none;
   width: 100%;
   display: inline-block;
@@ -1114,6 +1164,7 @@ form .form-group .form-con input:focus {
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
+    margin-bottom: 50px;
   }
   .intro .form-search form,
   .intro .form-search form input,
@@ -1127,7 +1178,11 @@ form .form-group .form-con input:focus {
     right: 0;
   }
   .copy-right {
-    text-align: center;
+    text-align: right;
+  }
+  footer .link-socail {
+    -webkit-box-pack: start !important;
+    justify-content: start !important;
   }
   .dropdown-content a:hover,
   .dropdown-content span:hover,
@@ -1217,6 +1272,9 @@ form .form-group .form-con input:focus {
     display: block;
   }
   /*  start inedx page */
+  .detail-product {
+    margin: 1rem;
+  }
   /*  start header */
 
   header .form-search form {
@@ -1250,12 +1308,16 @@ form .form-group .form-con input:focus {
 
   /*  footer */
   footer {
-    padding: 100px 20px 0;
+    padding: 50px 20px 0;
+  }
+  footer .logo {
+    margin-bottom: 40px;
   }
   footer .log,
   .link-product {
     margin-bottom: 30px;
   }
+
   /*  end footer */
   .sign-in-up {
     width: 100%;
@@ -1268,14 +1330,15 @@ form .form-group .form-con input:focus {
     padding: 20px 20px 0 20px;
   }
 
-.contact-from {
+  .contact-from {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 10px;
     border: none;
     border-radius: 0.5rem;
-    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1); 
-    transition: all .3s ease-in-out;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding-bottom: 97px;
   }
   /*  esae -order */
@@ -1325,3 +1388,17 @@ form .form-group .form-con input:focus {
   }
 }
 /****************************************  end media ******************************/
+
+/* ***************************** start animate ******************************/
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* ***************************** end animate ******************************/
