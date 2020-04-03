@@ -1153,6 +1153,9 @@ form .form-group .form-con input:focus {
 @media (min-width: 769px) {
 }
 @media (max-width: 992px) {
+  .modren-product {
+    padding: 20px;
+  }
   .btn-2:hover + .drop-con {
     display: none;
   }
