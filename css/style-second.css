@@ -31,7 +31,7 @@ body {
   background-color: #f8f8f8; /* #f9faf5;*/
 }
 .color {
-  color: #f7f6f3;
+  color: #40bd37;
 }
 ul li {
   list-style: none;
@@ -51,11 +51,11 @@ h4,
 h5 {
   font-family: "NeoSansArabic";
   font-weight: bold;
-  color: #efcb57;
+  color: #6c6c6c;
 }
 
 small {
-  color: #efc979;
+  color: #9c9c9c;
 }
 .title {
   position: relative;
@@ -82,7 +82,6 @@ label {
 /*  start intro */
 .intro {
   padding: 1rem 0;
-  background: #fff;
 }
 
 .intro .form-search form {
@@ -164,8 +163,6 @@ header {
   color: #fff;
   background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
   background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
 }
 header .nav-header {
   display: -webkit-box;
@@ -414,12 +411,11 @@ header .logo {
 
 /*  start modrenproject */
 .modren-product {
-  padding: 30px;
   margin-top: 100px;
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
 }
 .modren-product h5 {
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 .card-img-top {
   height: 10rem;
@@ -445,13 +441,7 @@ header .logo {
 
 /*  start price */
 .price {
-  padding: 30px;
-  /* box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1); */
-  margin-top: 30px;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  background-clip: border-box;
-  margin-bottom: 30px;
+  padding: 56px 0;
 }
 /*  end price */
 
@@ -460,12 +450,6 @@ footer {
   /* margin-top: 100px; */
   padding: 100px 0px 0;
   background-color: #fff;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
 }
 footer .copy-right {
   padding-bottom: 30px;
@@ -493,12 +477,6 @@ footer .title::before {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
 }
 .sign-in-up .tab-content {
   padding: 60px 60px 0 60px;
@@ -510,7 +488,7 @@ footer .title::before {
 }
 
 .sign-in-up .form .nav-tabs .nav-link {
-  color: #f9f9f9;
+  color: #9c9c9c;
   border: none;
   border-bottom: 3px solid transparent;
   font-family: "NeoSansArabic";
@@ -609,15 +587,12 @@ footer .title::before {
   margin: 20px 0 0;
   width: 100%;
   border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  outline: none;
   font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
 }
 
 .sign-in-up .form .link a {
@@ -725,15 +700,9 @@ footer .title::before {
   margin-top: 100px;
 }
 .contactus .info-contactus {
-  /* margin-top: 1px; */
-  background-color: #ffffff;
+  margin-top: 30px;
+  background-color: #4caf5033;
   border-radius: 10px;
-  padding: 10px;
-  border: none;
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
-  padding-bottom: 97px;
 }
 .contactus .info-contactus ul li {
   margin: 10px;
@@ -775,19 +744,11 @@ form .btn-send {
   padding: 10px;
   border-radius: 5px;
   width: 8rem;
-  /* background-color: #4caf50; */
+  background-color: #4caf50;
   border: none;
   color: #fff;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  border: none;
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
 }
 form .btn-send:hover {
   background: #efcb57;
@@ -804,21 +765,19 @@ form .form-group .form-con input:focus {
 
 /************************************8  start product page *************************/
 .product {
-  padding: 30px 0;
+  background-color: #f5f6f8;
+  padding: 80px 0;
 }
 .product .title {
   margin-bottom: 20px;
 }
 .product .our-product {
+  background: #fff;
+  box-shadow: 0px 0px 100px #d8d8d882;
 }
 .our-product .card {
   padding: 20px;
   border: none;
-  margin-bottom: 2.2rem;
-  border: none;
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
 }
 .our-product .card span {
   margin-bottom: 4px;
@@ -876,16 +835,9 @@ form .form-group .form-con input:focus {
 }
 
 .ease-order .order i {
-  padding: 8px;
   margin: 10px;
   font-size: 50px;
-  /* color: #4caf5073; */
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
-  transition: all .3s ease-in-out;
+  color: #4caf5073;
 }
 .ease-order .order .arrow-order {
   position: absolute;
@@ -911,12 +863,6 @@ form .form-group .form-con input:focus {
 .detail-product {
   padding-top: 50px;
   background-color: #fff;
-  margin: 2.2rem;
-  border: none;
-  border-radius: 2.5rem;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease-in-out;
-  margin-top: 30px;
 }
 .detail-product .title {
   margin-bottom: 50px;
@@ -971,15 +917,12 @@ form .form-group .form-con input:focus {
   border-radius: 5px;
   outline: none;
   border: none;
+  background-color: #4caf4c;
+  color: #fff;
   padding: 10px;
   cursor: pointer;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
-  background: #0064fa;
-  color: #fff;
-  background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5));
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
 }
 .detail-product .info .order-btn .pay:hover {
   background: #efcb57;
@@ -994,11 +937,6 @@ form .form-group .form-con input:focus {
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  /* background: #0064fa; */
-  /* color: #fff; */
-  /* background-image: linear-gradient(30deg, #28c76f, rgba(40, 199, 111, 0.5)); */
-  background-repeat: repeat-x;
-  box-shadow: 0px 4px 25px 0px rgba(22, 154, 173, 0.44);
 }
 .detail-product .info .order-btn button:nth-child(2) {
   margin-right: 20px;
@@ -1268,16 +1206,6 @@ form .form-group .form-con input:focus {
     padding: 20px 20px 0 20px;
   }
 
-.contact-from {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 0.5rem;
-    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1); 
-    transition: all .3s ease-in-out;
-    padding-bottom: 97px;
-  }
   /*  esae -order */
   .ease-order .order .arrow-order {
     display: none;
