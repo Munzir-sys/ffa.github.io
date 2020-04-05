@@ -873,7 +873,7 @@ form .form-group .form-con input:focus {
   margin-right: 10px;
 }
 .ease-order {
-  background-color: #f5f6f8;
+  background-color: #fff;
   padding: 80px 0;
 }
 .ease-order .title {
@@ -882,6 +882,7 @@ form .form-group .form-con input:focus {
 .ease-order .order {
   box-shadow: 0px 0px 100px #d8d8d882;
   position: relative;
+  border-radius: 10px;
   background-color: #fff;
   margin: 50px;
   padding: 20px;
@@ -896,6 +897,10 @@ form .form-group .form-con input:focus {
   cursor: pointer;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .ease-order .order .fa-award,
@@ -918,9 +923,9 @@ form .form-group .form-con input:focus {
   line-height: 50px;
 }
 
-.ease-order .order .fa-award:hover,
-.fa-thumbs-up:hover,
-.fa-rocket:hover {
+.ease-order .order:hover .fa-award,
+.ease-order .order:hover .fa-thumbs-up,
+.ease-order .order:hover .fa-rocket {
   -webkit-animation: rotate 3s linear infinite;
   animation: rotate 3s linear infinite;
 }
@@ -1156,6 +1161,82 @@ form .form-group .form-con input:focus {
 }
 /* ***********************************  end check out ******************** */
 
+/* **********************************start about us *************************/
+
+.about-us{
+  padding: 100px 0;
+}
+.about-us .image-about{
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.about-us .image-about img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  
+}
+.about-us .info-about{
+  margin-top: 20px;
+}
+
+/* ****************************** end about us ********************************/
+
+
+
+/* **********************************start policies*************************/
+
+.policies{
+  padding: 100px 0;
+}
+.policies .image-policies{
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.policies .image-policies img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  
+}
+.policies .info-policies{
+  margin-top: 20px;
+}
+.policies ul li{
+  margin: 10px;
+  padding: 10px;
+  list-style: disc;
+}
+
+.policies .privacy{
+  margin-top: 50px;
+}
+.policies .privacy h3{
+  margin-bottom: 10px;
+}
+.policies .privacy p{
+  line-height: 2;
+}
+
+.policies .image-policies2 img{
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+}
+/* ****************************** end policies ********************************/
+
 /****************************************  start media  **************************************/
 @media (min-width: 769px) {
 }
@@ -1359,6 +1440,9 @@ form .form-group .form-con input:focus {
     display: block;
     top: 110%;
     right: 45%;
+  }
+  .ease-order .order{
+    margin: 50px 10px;
   }
   /*  end ease order */
 
